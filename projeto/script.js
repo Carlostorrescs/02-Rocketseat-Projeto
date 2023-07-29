@@ -12,13 +12,3 @@ function togglemode() {
   
 } 
 
-function trocarImg() {
-  let img = document.getElementById("img");
-  
-  input.onchange = (e) => {
-    if (input.l)files[0]
-    img.src = URL.creatObjectURL(input.files[0]);
-  }
-  
-}
-
